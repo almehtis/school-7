@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(fonts/Montserrat-Medium.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    color: #2f292b;
+}
+
+.logo {
+    font-size: 2em;
+    padding-left: 20px;
+}
+
+.home {
+    text-align: left;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+
+nav {
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2f292b;
+}
+
+.nav-links a:hover {
+    color: #5753C9;
+}
+
+.after-school a {
+    color: #5753C9;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-top: 30px;
+}
+
+section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.vr-guy {
+    float: right;
+    width: 30%;
+    height: 50%;
+    text-align: center;
+}
+
+.vr-guy img {
+    padding: 20px;
+    padding-top: 50px;
+    width: 70%;
+    height: 70%;
+}
+
+.grow-point {
+    padding: 20px;
+    font-weight: normal;
+    border: 1px solid #2f292b;
+    box-shadow: 4px 4px #d5ced8;
+}
+
+.theater {
+    text-align: right;
+    padding: 20px;
+    font-weight: normal;
+    border: 1px solid #2f292b;
+    box-shadow: 4px 4px #d5ced8;
+}
+
+.masks {
+    text-align: center;
+    float: left;
+    width: 30%;
+}
+
+.masks img {
+    padding: 20px;
+    padding-top: 30px;
+    width: 80%;
+    height: 70%;
+}
+
+
+.glee {
+    text-align: left;
+    padding: 20px;
+    font-weight: normal;
+    border: 1px solid #2f292b;
+    box-shadow: 4px 4px #d5ced8;
+}
+
+.micro {
+    padding-left: 0px;
+    float: right;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+}
+
+.micro img {
+    padding: 20px;
+    padding-top: 50px;
+    width: 80%;
+    height: 70%;
+}
+
+.section4 {
+    padding: 0;
+}
+
+.container4 {
+    text-align: center;
+    align-items: space-between;
+    background-color: #f4f4f4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #161616;
+    border-top: 1px solid #2f292b;
+}
+
+.container4 svg {
+    width: 35px;
+    height: 35px;
+}
+
+.container4 a {
+    padding: 10px;
+    fill: #2f292b;
+    text-decoration: none;
+}
+
+.container4 svg:hover {
+    fill: #5753C9;
+    transition: fill 0.4s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 15px;
+    }
+}
